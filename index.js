@@ -16,7 +16,6 @@ document.getElementById("add-btn").addEventListener("click", function(){
     let inputValue = inputName.value
     push(movieInDb , inputValue)
     clearInputFieldEl()
-    console.log(`${inputName} add database` )
 })
 
 
